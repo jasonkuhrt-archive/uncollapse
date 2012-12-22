@@ -1,0 +1,16 @@
+
+
+
+//  Uncollapse mixin
+//  ----------------
+
+//  See uncollapse.css for docs
+
+uncollapse()
+  &:after
+  &:before
+    content '.'
+    display block
+    overflow hidden
+    width 0
+    height 0

@@ -1,0 +1,13 @@
+{
+  "name": "uncollapse",
+  "repo": "jasonkuhrt/uncollapse",
+  "description": "CSS utility for undoing css margin collapsing",
+  "version": "0.0.1",
+  "keywords": ['class', 'utility', 'margin', 'collapsing'],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "uncollapse.css"
+  ]
+}

@@ -1,0 +1,29 @@
+
+
+
+/*
+ *
+ *  Uncollapse by Jason Kuhrt / jasonkuhrt@me.com
+ *
+ *
+ *  About
+ *
+ *  - This utility class prevents decendents from margin collapsing
+ *  - This technique is an evolution upon http://stackoverflow.com/questions/1828804/how-do-i-uncollapse-a-margin
+ *
+ *
+ *  Usage
+ *
+ *  - Apply this class on a container whose descendents' margin-top's are protruding beyond its bounds
+ *
+ *
+ *  Notes
+ *
+ *  - Uncollapsing will only function if the content attribute is given a non-whitespace character
+ *    So cotnent:'a' content:'b' etc are all fine, but content:' ' wouldn't be because of it being
+ *    only whitespace. I have not investaged more deeply why this is.
+ *
+*/
+
+.uncollapse:after { content: '.'; display:block; overflow:hidden; width:0; height:0; }
+.uncollapse:before{ content: '.'; display:block; overflow:hidden; width:0; height:0; }
