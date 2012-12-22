@@ -14,7 +14,7 @@
 
     .uncollapse
 
-  Apply this class on a container whose descendents' margin-top's are protruding beyond its bounds
+  Apply this class on a container having its bounds protruded by its descendents' margin-top/bottom's
 
 ## Example
 
