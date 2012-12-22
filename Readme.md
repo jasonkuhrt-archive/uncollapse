@@ -18,7 +18,7 @@
 
 ## Example
 
-    <!-- The problem -->
+    <!-- Problem -->
     <article>
       <div style="background-color:grey;">
         <h1>Demo</h1>
@@ -30,7 +30,7 @@
 
 
 
-    <!-- The solution -->
+    <!-- Solution -->
     <article>
       <div style="background-color:grey;">
         <h1>Demo</h1>
