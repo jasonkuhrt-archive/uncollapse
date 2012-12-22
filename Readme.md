@@ -18,11 +18,24 @@
 
 ## Example
 
+    <!-- The problem -->
     <article>
       <div style="background-color:grey;">
         <h1>Demo</h1>
       </div>
       <div style="background-color:red;">
+        <p style="margin:32px;">Oops, notice I don't make my container 64px tall!</p>
+      </div>
+    </article>
+
+
+
+    <!-- The solution -->
+    <article>
+      <div style="background-color:grey;">
+        <h1>Demo</h1>
+      </div>
+      <div class="uncollapse" style="background-color:red;">
         <p style="margin:32px;">Oops, notice I don't make my container 64px tall!</p>
       </div>
     </article>
