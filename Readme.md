@@ -1,4 +1,3 @@
-
 # uncollapse
 
   CSS utility for undoing css margin collapsing
@@ -24,7 +23,7 @@
         <h1>Demo</h1>
       </div>
       <div style="background-color:red;">
-        <p style="margin:32px;">Oops, notice I don't make my container 64px tall!</p>
+        <p style="margin:32px;">Oops, notice I don't make my container 64px tall</p>
       </div>
     </article>
 
@@ -36,7 +35,7 @@
         <h1>Demo</h1>
       </div>
       <div class="uncollapse" style="background-color:red;">
-        <p style="margin:32px;">Oops, notice I don't make my container 64px tall!</p>
+        <p style="margin:32px;">Good, I am now 64px tall</p>
       </div>
     </article>
 
